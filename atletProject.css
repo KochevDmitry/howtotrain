@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;0,700;1,400&display=swap');
+header {
+    display: flex;
+    margin: 10px auto 50px auto;
+    width: 460px;
+    padding: 10px 40px;
+    font-family: "Exo 2";
+}
+p {
+    font-family: "Exo 2";
+}
+.container0 {
+    display: flex;
+    width: 100%;
+}
+.con{
+    display: block;
+    margin:30px auto;
+    padding: 10px;
+    width: 70%;
+    transition: 3s;
+}
+.on {
+    margin:30px auto;
+}
+.tw {
+    margin:30px;
+    padding: 10px;
+    width: 70%;
+}
+.con:hover{
+    background-color:rgba(250,200,150,0.5);
+}
+.picture1{
+    margin: auto;
+    width: 200px;
+    height: 150px;
+    background-image: url(img/atlet/атлетиктрен1.jpg);
+    background-size: cover;
+    border-radius: 18px;
+    transition: 4s;
+}
+.picture1:hover{
+    width: 350px;
+    height: 300px;
+}
+.picture2{
+   margin: 80px 0 0 0;
+    position: relative;
+    left: 70px;
+    width: 150px;
+    height: 100px;
+    background-image: url(img/atlet/атлетиктрен2.jpg);
+    background-size: cover;
+    border-radius: 18px;
+    transition: 2s; 
+}
+.picture2:hover{
+    margin: 42px 0 0 0;
+    position: relative;
+    left: 40px;
+    width: 220px;
+    height: 170px;
+}
+.container2 {
+    display: flex;
+    width: 70%;
+    margin: 30px 50px;
+    justify-content: space-around;
+}
+.one {
+    height: 250px;
+    width: 150px;
+    background-color:rgba(250,250,250,0.5);
+    border-radius: 15px;
+    transition: 1.7s;
+}
+.one:hover{
+    height: 300px;
+    width: 200px;
+    margin: 50px;
+    border-radius: 5px;
+    font-size: 22px;
+}
+.picture{
+    height: 100px;
+    width: 130px;
+    margin: 10px auto;
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 15px;
+    
+}
+.news1 {
+    background-image: url(img/atlet/атлетикновости1.jpg);
+}
+.news2 {
+    background-image: url(img/atlet/атлетикновости2.jpg);
+}
+.news3 {
+    background-image: url(img/atlet/атлетикновости3.jpg);
+}
+.news4 {
+    background-image: url(img/atlet/атлетикновости4.jpg);
+}
+.news{
+    display: flex;
+    margin: 10px 0 0 10px;
+    width: 970px;
+    height: 40px;
+    background-color:rgba(250,250,250,0.6);
+    border: 2px solid black;
+    align-items:center;
+}
+h2 {
+    margin: auto;
+    font-family: "Exo 2";
+    
+}
+footer {
+    display: flex;
+    margin:auto;
+    height: 48px;
+    width: 100%;
+    transition: 1s;
+}
+.up{
+    margin:3px 20px;
+    height: 40px;
+    width: 120px;
+    background-color:rgba(250,250,250,0.6);
+    text-decoration: none;
+    color:black;
+    border-radius: 15px;
+    border: 2px solid black;
+    position: absolute;
+    right: 160px;
+    padding: auto;
+}
+h3{
+   margin:10px 30px;
+   font-family: "Exo 2";
+}
+.home{
+    margin:3px 20px;
+    height: 40px;
+    width: 120px;
+    background-color:rgba(250,250,250,0.6);
+    border-radius: 15px;
+    text-decoration: none;
+    color:black;
+    border: 2px solid black;
+    position: absolute;
+    right: 10px;
+}
+h4{
+   margin:12px 14px;
+   font-family: "Exo 2";
+}
+.fot{
+    position: absolute;
+    left: -10px;
+    width: 102%;
+    margin: 30px auto 0 auto;
+    background-image: url(img/atlet/фонатлетика2.jpg);
+    background-size: cover;
+}
+.back1{
+    width: 100%;
+    height: 700px;
+    margin:50px 0;
+    position: relative;
+    left: 0px;
+    background-image: url(img/atlet/фонатлетика.jpg);
+    background-size: cover;
+}
+h5{
+    margin: 10px;
+}
+@media (max-width:415px){
+    .container2{
+        display: block;
+    }
+    .cont2{
+        width: 100%;
+        margin: 0px;
+    }
+    .back1 {
+        width: 100%;
+        height: 200px;
+        margin:20px 0 20px 0;
+    }
+    .back2 {
+        width: 110%;
+        height: 200px;
+        margin:20px 0 20px 0;
+    }
+    .back3 {
+        width: 0;
+        height: 0;
+        margin:20px 0 20px 0;
+    }
+    .one {
+        margin: 10px auto;
+        padding: 5px;
+    } 
+    .one:hover{
+        margin: 10px auto;
+        padding: 5px;
+        height: 250px;
+        width: 150px;
+        border-radius: 15px;
+        transition: 1.7s;
+        font-size: 16px;
+    }
+    .three{
+        display: none;
+    }
+    .four{
+        display: none;
+    }
+    .news {
+        width: 99%;
+        margin: 10px 0 0 0;
+    }
+    .fot{
+        position: absolute;
+        left: 0px;
+        width: 100%;
+    }
+    .picture2{
+    display: none;
+    }
+    .up{
+        position: static;
+    }
+    .home{
+        position: static;
+    }
+    footer{
+        justify-content: center;
+    }
+    .tw{
+        margin:auto;
+    }
+    header{
+        width: 100%;
+        padding: 4px 0;
+    }
+    h1{
+        margin: 4px 75px;
+    }
+}
