@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;0,700;1,400&display=swap');
+body {
+    background-image: url(img/проект.png);
+    background-size: cover;
+    font-family: "Exo 2";
+}
+header {
+    display: flex;
+    margin:auto;
+    padding: 20px 110px;
+    width: 500px;
+    background-color:rgba(150,150,255,0.4);
+    border-radius: 15px;
+    border: 2px solid darkgreen;
+    transition: 1s;
+}
+header:hover{
+    background-color:rgba(150,150,255,0.65);
+    padding: 30px 110px;
+}
+h1 {
+    color:black;
+}
+p {
+    margin:0 10px;
+    color:black;
+}
+.container0 {
+    display: block;
+    margin:50px auto;
+    padding: 10px;
+    width: 700px;
+    background-color:rgba(150,150,255,0.4);
+    border-radius: 15px;
+    border: 2px solid darkgreen;
+    transition: 1s;
+}
+.container0:hover{
+    background-color:rgba(150,150,255,0.65);
+    padding: 30px;
+}
+.container1 {
+    display: flex;
+    width: 720px;
+    margin: 10px auto;
+    justify-content: space-between;
+}
+.one {
+    height: 350px;
+    width: 200px;
+    background-color:rgba(150,150,255,0.4);
+    border-radius: 15px;
+    border: 2px solid darkgreen;
+    transition: 1s;
+    }
+.one:hover{
+    background-color:rgba(150,150,255,0.65);
+    padding: 5px;
+}
+.picture1 {
+    height: 120px;
+    width: 160px;
+    margin: 10px 20px 10px 20px;
+    background-image: url(img/футбол.png);
+    background-size: cover;
+    border: 2px solid darkgreen;
+    border-radius: 15px;
+    
+}
+.picture2 {
+    height: 120px;
+    width: 160px;
+    margin: 10px 20px 10px 20px;
+    background-image: url(img/бокс.jpg);
+    background-size: cover;
+    border: 2px solid darkgreen;
+    border-radius: 15px;
+}
+.picture3 {
+    height: 120px;
+    width: 160px;
+    margin: 10px 20px 10px 20px;
+    background-image: url(img/атлетика.jpg);
+    background-size: cover;
+    border: 2px solid darkgreen;
+    border-radius: 15px;
+}
+footer {
+    display: flex;
+    margin:auto;
+    padding: 5px;
+    width: 500px;
+    background-color:rgba(150,150,255,0.4);
+    border-radius: 15px;
+    border: 2px solid darkgreen;
+    transition: 1s;
+}
+@media (max-width:415px){
+    header{
+        width: 100%;
+        padding: 4px 0;
+        border: none;
+        background-color: white;
+    }
+    h1{
+        margin: 4px 75px;
+    }
+    header:hover{
+        background-color:white;
+        padding: 1px;
+    }
+    .container0{
+        width: 94%;
+        margin:50px 0;
+        border: none;
+        background-color:rgba(150,150,255,0.4);
+    }
+    .container0:hover{
+        padding: 10px;
+        background-color:rgba(150,150,255,0.4);
+    }
+    .container1{
+        display: block;
+        width: 100%;
+        justify-content: center;
+    }
+    .one{
+        margin: 20px auto;
+        background-color: white;
+        border: 2px solid rgba(150,150,255,0.65);
+    }
+    p {
+    margin:5px;
+    }
+    footer{
+        width: 96%;
+        border: none;
+    }
+    body {
+    background-color: white;
+    background-image: none;
+    }
+    .picture1 {
+        border: none;
+    }
+    .picture2 {
+        border: none;
+    }
+    .picture3 {
+        border: none;
+    }
+}
