@@ -35,7 +35,7 @@ p {
     margin: auto;
     width: 200px;
     height: 150px;
-    background-image: url(img/atlet/атлетиктрен1.jpg);
+    background-image: url(атлетиктрен1.jpg);
     background-size: cover;
     border-radius: 18px;
     transition: 4s;
@@ -50,7 +50,7 @@ p {
     left: 70px;
     width: 150px;
     height: 100px;
-    background-image: url(img/atlet/атлетиктрен2.jpg);
+    background-image: url(атлетиктрен2.jpg);
     background-size: cover;
     border-radius: 18px;
     transition: 2s; 
@@ -92,16 +92,16 @@ p {
     
 }
 .news1 {
-    background-image: url(img/atlet/атлетикновости1.jpg);
+    background-image: url(атлетикновости1.jpg);
 }
 .news2 {
-    background-image: url(img/atlet/атлетикновости2.jpg);
+    background-image: url(атлетикновости2.jpg);
 }
 .news3 {
-    background-image: url(img/atlet/атлетикновости3.jpg);
+    background-image: url(атлетикновости3.jpg);
 }
 .news4 {
-    background-image: url(img/atlet/атлетикновости4.jpg);
+    background-image: url(атлетикновости4.jpg);
 }
 .news{
     display: flex;
@@ -162,7 +162,7 @@ h4{
     left: -10px;
     width: 102%;
     margin: 30px auto 0 auto;
-    background-image: url(img/atlet/фонатлетика2.jpg);
+    background-image: url(фонатлетика2.jpg);
     background-size: cover;
 }
 .back1{
@@ -171,7 +171,7 @@ h4{
     margin:50px 0;
     position: relative;
     left: 0px;
-    background-image: url(img/atlet/фонатлетика.jpg);
+    background-image: url(фонатлетика.jpg);
     background-size: cover;
 }
 h5{
