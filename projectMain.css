@@ -61,7 +61,7 @@ p {
     height: 120px;
     width: 160px;
     margin: 10px 20px 10px 20px;
-    background-image: url(img/футбол.png);
+    background-image: url(футбол.png);
     background-size: cover;
     border: 2px solid darkgreen;
     border-radius: 15px;
@@ -71,7 +71,7 @@ p {
     height: 120px;
     width: 160px;
     margin: 10px 20px 10px 20px;
-    background-image: url(img/бокс.jpg);
+    background-image: url(бокс.jpg);
     background-size: cover;
     border: 2px solid darkgreen;
     border-radius: 15px;
@@ -80,7 +80,7 @@ p {
     height: 120px;
     width: 160px;
     margin: 10px 20px 10px 20px;
-    background-image: url(img/атлетика.jpg);
+    background-image: url(атлетика.jpg);
     background-size: cover;
     border: 2px solid darkgreen;
     border-radius: 15px;
